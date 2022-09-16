@@ -15,6 +15,10 @@ In Bud-Get, users will be able to:
 - Set up periodic(recurring) expenses
 - View spending summary from dynamic chart
 
+## Wireframe
+
+![](images/wireframe.png)
+
 ## Implementation Timeline
 
 - Friday Afternoon & Weekend: Research for essential resources for the project
