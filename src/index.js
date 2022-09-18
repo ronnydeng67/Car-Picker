@@ -1,9 +1,17 @@
-// import {buttons, fn1} from "./scripts/image.js";
-const image = require("./scripts/image.js")
 
-document.addEventListener('DOMContentLoaded', () => {
-    const div = document.getElementsByClassName("car")
-})
+const navMenu = document.getElementById('navMenu');
+const navTog = document.getElementById('navTog');
+const navClose = document.getElementById('navClose')
 
-// buttons();
-// fn1();
+
+if(navTog) {
+    navTog.addEventListener('click', () => {
+        navMenu.classList.add('show-menu')
+    })
+}
+
+if(navClose) {
+    navClose.addEventListener('click', () => {
+        navMenu.classList.remove('show-menu')
+    })
+}
