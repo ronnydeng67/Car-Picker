@@ -1,23 +1,27 @@
-# Bud-Get
+# Car Picker
 
-JS Project :money_with_wings: :money_with_wings:
+JS Project :red_car: :oncoming_automobile:
 
 ## Background
 
-Bud-Get is a data visualiztion webapp that provide money management to users. Featuring with personalized insights, custom budgets, spend and investment tracking. Easily monitor your monthly incomes and expenses, building stronger financial habits.
+Car Picker is a data visualiztion webapp that provide car suggestions to user based on the user's preferences. Perform a car search by features/criteria most vital to the users, disvover new car for users accourding to user's selections.
 
 ## Functionality & MVPs
 
-In Bud-Get, users will be able to:
+In Car Picker, users will be able to:
 
-- Monior cash flow by tracking user's income and expenses
-- Adding expenses rapidly by selecting from the the provided spending categories
-- Set up periodic(recurring) expenses
-- View spending summary from dynamic chart
+- Use slider to choose their interest level on certain features
+- Choose from 8 different car preferences 
+- View 2-3 cars as result after submit their selections
+- View chart comparison in different specs from the filtered out cars
+
+## Technologies, APIs
+
+- Chart.js
 
 ## Wireframe
 
-![](images/wireframe.png)
+![](images/carpicker.png)
 
 ## Implementation Timeline
 
