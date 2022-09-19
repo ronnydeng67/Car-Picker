@@ -1,0 +1,38 @@
+#hp_value,
+#fuel_value,
+#budget_value,
+#capacity_value {
+    color: rgb(143, 13, 180);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.horsepowerSlider,
+.fuelSlider,
+.budgetSlider,
+.capacitySlider {
+    background-color: linear-gradient(to right, #6b8dff 0%, red 0%, blue 0%, yellow 100%);
+    height: 15px;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    border-radius: 25px;
+    box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+    -webkit-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+    -moz-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+}
+
+.horsepowerSlider::-webkit-slider-thumb,
+.fuelSlider::-webkit-slider-thumb,
+.budgetSlider::-webkit-slider-thumb,
+.capacitySlider::-webkit-slider-thumb {
+    cursor: pointer;
+    appearance: none;
+    height: 25px;
+    width: 25px;
+    background-color: #ff2a5f;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+    -webkit-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+    -moz-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+}

@@ -116,11 +116,6 @@ img{
     color:hsl(31, 100%, 70%)
 }
 
-.background {
-    width: auto;
-    height: auto;
-    position: relative;
-}
 
 .center_box {
     width: 100wd;
@@ -130,6 +125,7 @@ img{
     margin: 20px;
     display: flex;
     flex-direction: column;
+    background-color: #DCC7AA;
 }
 
 .sliders {
@@ -144,16 +140,37 @@ img{
 .buttonContainer {
     /* border: 1px solid white; */
     width: 95vw;
+    padding: 5px;
     display: flex;
     justify-content: center;
     height: 50px;
     margin: auto;
+    align-items: center;
 }
 
 .button {
-    border: 1px solid white ;
-    color:white;
+    font-size: x-large;
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
     text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: blue;
+    background-color: burlywood;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px gray;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.button:active {
+    background-color: aliceblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(6px);
 }
 
 .horsepowerSlider,
@@ -171,12 +188,10 @@ img{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    font-size: x-large;
 }
 
-.bodyStyle {
-    color: white;
-}
-
+.bodyStyle,
 .transmission {
     color: white;
 }
@@ -184,6 +199,56 @@ img{
 .allwheel,
 .ev {
     color: white
+}
+
+input[type=checkbox] {
+    transform: scale(1.8);
+}
+
+select {
+    width: 120px;
+    height: 30px;
+}
+/*!*********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/slider_num.css ***!
+  \*********************************************************************************************************/
+#hp_value,
+#fuel_value,
+#budget_value,
+#capacity_value {
+    color: rgb(143, 13, 180);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.horsepowerSlider,
+.fuelSlider,
+.budgetSlider,
+.capacitySlider {
+    background-color: linear-gradient(to right, #6b8dff 0%, red 0%, blue 0%, yellow 100%);
+    height: 15px;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    border-radius: 25px;
+    box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+    -webkit-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+    -moz-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+}
+
+.horsepowerSlider::-webkit-slider-thumb,
+.fuelSlider::-webkit-slider-thumb,
+.budgetSlider::-webkit-slider-thumb,
+.capacitySlider::-webkit-slider-thumb {
+    cursor: pointer;
+    appearance: none;
+    height: 25px;
+    width: 25px;
+    background-color: #ff2a5f;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+    -webkit-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+    -moz-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
 }
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
