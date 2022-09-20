@@ -2,6 +2,10 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/new.css ***!
   \**************************************************************************************************/
 @import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Rubik+Maze&display=swap);
+/*!*********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/slider_num.css ***!
+  \*********************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Courgette);
 /*!******************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/new.css (1) ***!
   \******************************************************************************************************/
@@ -164,7 +168,7 @@ img{
 }
 
 .button:hover {
-    background-color: red;
+    background-color: skyblue;
 }
 
 .button:active {
@@ -198,27 +202,37 @@ img{
 
 .allwheel,
 .ev {
-    color: white
+    color: white;
+    padding-right: 15px;
 }
 
 input[type=checkbox] {
     transform: scale(1.8);
 }
 
+
 select {
     width: 120px;
     height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
 }
-/*!*********************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/slider_num.css ***!
-  \*********************************************************************************************************/
+
+
+
+
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/slider_num.css (1) ***!
+  \*************************************************************************************************************/
 #hp_value,
 #fuel_value,
 #budget_value,
 #capacity_value {
-    color: rgb(143, 13, 180);
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: x-large;
+    font-weight: 800;
+    font-family: Courgette;
 }
 
 .horsepowerSlider,
@@ -243,12 +257,22 @@ select {
     appearance: none;
     height: 25px;
     width: 25px;
-    background-color: #ff2a5f;
+    background-color:black;
     border-radius: 50%;
     border: 1px solid rgb(255, 255, 255);
     box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
     -webkit-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
     -moz-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+}
+
+.hp_container,
+.fuel_container,
+.budget_container,
+.capacity_container
+ {
+    color:aquamarine;
+    font-size: x-large;
+    padding-bottom: 20px;
 }
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!

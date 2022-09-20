@@ -8,7 +8,7 @@ export const hpSlider = () => {
         var value = (this.value - this.min) / (this.max - this.min) * 100;
 
         this.style.background = 'linear-gradient(to right, #6b8dff 0%, red ' + value + '%, blue '+ value + '%, yellow 100%)'
-
+        
         output.innerHTML = this.value;
 
         }

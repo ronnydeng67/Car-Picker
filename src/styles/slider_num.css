@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
 #hp_value,
 #fuel_value,
 #budget_value,
 #capacity_value {
-    color: rgb(143, 13, 180);
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: x-large;
+    font-weight: 800;
+    font-family: Courgette;
 }
 
 .horsepowerSlider,
@@ -29,10 +32,20 @@
     appearance: none;
     height: 25px;
     width: 25px;
-    background-color: #ff2a5f;
+    background-color:black;
     border-radius: 50%;
     border: 1px solid rgb(255, 255, 255);
     box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
     -webkit-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
     -moz-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+}
+
+.hp_container,
+.fuel_container,
+.budget_container,
+.capacity_container
+ {
+    color:aquamarine;
+    font-size: x-large;
+    padding-bottom: 20px;
 }

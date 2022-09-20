@@ -43,25 +43,25 @@
             <div class="sliders">
                 <div class="horsepower">
                     <div class="hp_container">
-                        Horsepower: <span id="hp_value">350</span>
+                        Horsepower: <span id="hp_value">350</span> HP
                     </div>
                         <input type="range" min="100" value="350" max="600" step="50" class="horsepowerSlider" id="hp_range">
                 </div>
                 <div class="fuel_economy">
                     <div class="fuel_container">
-                        Fuel Economy: <span id="fuel_value">22</span>
+                        Fuel Economy: <span id="fuel_value">22</span> MPG
                     </div>
                         <input type="range" min="12" value="22" max="32" step="2" class="fuelSlider" id="fuel_range">
                 </div>
                 <div class="budget">
                     <div class="budget_container">
-                        Budget: <span id="budget_value">35</span>
+                        Budget: <span id="budget_value">35</span> K
                     </div>
                         <input type="range" min="10" value="45" max="80" step="5" class="budgetSlider" id="budget_range">
                 </div>
                 <div class="capacity">
                     <div class="capacity_container">
-                        Capacity: <span id="capacity_value">5</span>
+                        Capacity: <span id="capacity_value">5</span> Seats
                     </div>
                         <input type="range" min="2" value="5" max="8" step="1" class="capacitySlider" id="capacity_range">
                 </div>
@@ -69,7 +69,7 @@
 
             <div class="btm_box">
                 <label for="body" class="bodyStyle">Body Style:
-                    <select name="car" id="car">
+                    <select name="car" id="car_body">
                         <option value="any">Any</option>
                         <option value="suv">SUV</option>
                         <option value="sedan">Sedan</option>
@@ -80,18 +80,20 @@
                     </select>
                 </label>
                 <label for="transmission" class="transmission">Transmission:
-                    <select name="car" id="car">
+                    <select name="car" id="car_transmission">
                         <option value="any">Any</option>
                         <option value="automatic">Automatic</option>
                         <option value="manual">Manual</option>
                     </select>
                 </label>
-                <label for="allwheel" class="allwheel">All Wheel Drive: 
-                    <input type="checkbox" name="" id="">
-                </label>
-                <label for="ev" class="ev">Electric car:  
-                    <input type="checkbox" name="" id="">
-                </label>
+                <div class="awd">
+                    <label for="allwheel" class="allwheel">All Wheel Drive: </label>
+                        <input type="checkbox" name="" id="awd">
+                </div>
+                <div class="electric_car">
+                    <label for="ev" class="ev">Electric car: </label>
+                        <input type="checkbox" name="" id="ev">
+                </div>
             </div>
         </div>
         <div class="buttonContainer">

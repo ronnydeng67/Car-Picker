@@ -159,7 +159,7 @@ img{
 }
 
 .button:hover {
-    background-color: red;
+    background-color: skyblue;
 }
 
 .button:active {
@@ -193,14 +193,22 @@ img{
 
 .allwheel,
 .ev {
-    color: white
+    color: white;
+    padding-right: 15px;
 }
 
 input[type=checkbox] {
     transform: scale(1.8);
 }
 
+
 select {
     width: 120px;
     height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+
+
