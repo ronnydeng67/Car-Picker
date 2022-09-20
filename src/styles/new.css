@@ -99,6 +99,7 @@ img{
     padding-right: 1rem;
 }
 
+
 .navLink {
     color: white;
     font-weight: 500;
@@ -106,6 +107,8 @@ img{
     font-size: 1.25rem;
     transition: .3s;
 }
+
+
 
 .navLink:hover {
     color:hsl(31, 100%, 70%)
