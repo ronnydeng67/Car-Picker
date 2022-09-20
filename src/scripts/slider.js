@@ -3,6 +3,7 @@
 export const hpSlider = () => {
 
     var output = document.getElementById("hp_value");
+    
     var slider = document.getElementById("hp_range").oninput = function() {
         
         var value = (this.value - this.min) / (this.max - this.min) * 100;
