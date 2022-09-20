@@ -2,6 +2,10 @@
     display: none;
 }
 
+.loading_page {
+    display: none;
+}
+
 .result_block {
     width: 100wd;
     height: 750px;
@@ -24,6 +28,16 @@
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px gray;
+}
+
+.close:hover {
+    background-color: skyblue;
+}
+
+.close:active {
+    background-color: aliceblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(6px);
 }
 
 .two_cars {

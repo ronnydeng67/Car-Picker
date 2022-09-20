@@ -9,6 +9,7 @@ capacitySlider();
 // changeSliderValue();
 const submitButton = document.querySelector(".button")
 submitButton.addEventListener("click", e => {
+    e.preventDefault();
     let hp = document.getElementById("hp_range").value;
     let fuel = document.getElementById("fuel_range").value;
     let budget = document.getElementById("budget_range").value;
@@ -23,10 +24,27 @@ submitButton.addEventListener("click", e => {
     let awd = document.getElementById("awd").checked; // boolean
     let ev = document.getElementById("ev").checked; // boolean
 
-    document.querySelector(".result").style.display="block";
-    document.querySelector(".main").style.display="none";
+    let switchResult = function() {
+        document.querySelector(".loading_page").style.display="block";
+        document.querySelector(".main").style.display="none";
+        setTimeout(function(){
+            document.querySelector(".result").style.display="block";
+            document.querySelector(".loading_page").style.display="none";
+        }, 500)
+    }
+    switchResult();
 
-    console.log([hp, fuel, budget, capacity, body, trans, awd, ev]); 
+        let userInput = {
+            "hp": hp,
+            "fuel": fuel,
+            "price": budget,
+            "capacity": capacity,
+            "body": body,
+            "transmission": trans,
+            "awd": awd,
+            "ev": ev
+            }
+            console.log(userInput);
 });
 
     let hp1 = document.getElementById("hp_range")
