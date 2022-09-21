@@ -9,25 +9,10 @@ function searchJson(userData, jsonData) {
         let res = [];
         
         console.log(data);
-        // debugger
-        // data.forEach = (obj) => {
-        //     if (
-        //         hpRange(user.hp, obj.hp) &&
-        //         fuelRange(user.fuel, obj.fuel) && 
-        //         priceRange(user.price, obj.price) &&
-        //         (user.capacity === obj.capacity) &&
-        //         (user.trans === obj.transmission) &&
-        //         (user.awd === obj.awd) &&
-        //         (user.ev === obj.ev)
-        //         ) 
-        //     {
-        //         res.push(obj);
-        //     }
-        // }
+
         for (let i = 0; i < data.length; i++) {
             let obj = data[i];
-            // console.log(inputData.transmission === obj.transmission);
-            // debugger
+
             if (
                 hpRange(inputData.hp, obj.hp) &&
                 fuelRange(inputData.fuel, obj.fuel) && 
@@ -50,19 +35,28 @@ function searchJson(userData, jsonData) {
 
             let keyWord = res[0].brand + " " + res[0].model;
             console.log(keyWord)
-            debugger
             let accessKey = "nJQFxVnXFwVju-EBYAE1jndUUt1suJC9BMs1iPg_Zl8";
-            let endpoint = `https://api.unsplash.com/search/photos?query=${keyWord}&client_id=${accessKey}&per_page=1`
-            let acutalImage = document.querySelector("#unsplash_imge");
-            let imageLink = document.querySelector("#image_link");
+            let endpoint = `https://api.unsplash.com/search/photos?query=${keyWord}&client_id=${accessKey}&per_page=3&orientation=landscape`
+            let acutalImage = document.querySelector("#unsplash_imge1");
+            let imageLink = document.querySelector("#image_link1");
+            let acutalImage2 = document.querySelector("#unsplash_imge2");
+            let imageLink2 = document.querySelector("#image_link2");
+            let acutalImage3 = document.querySelector("#unsplash_imge3");
+            let imageLink3 = document.querySelector("#image_link3");
     
             fetch(endpoint)
             .then((response) => {
                 return response.json()
             })
             .then((unsplashImage) => {
-                console.log(unsplashImage.results[0].urls.small)
-                    acutalImage.src = unsplashImage.results[0].urls.small;
+                console.log(unsplashImage.results[1])
+                debugger
+                acutalImage.src = unsplashImage.results[0].urls.small;
+                imageLink.setAttribute("href", unsplashImage.results[0].links.html);
+                acutalImage2.src = unsplashImage.results[1].urls.small;
+                imageLink2.setAttribute("href", unsplashImage.results[1].links.html);
+                acutalImage3.src = unsplashImage.results[2].urls.small;
+                imageLink3.setAttribute("href", unsplashImage.results[2].links.html);
             })
             // return res;
         }
@@ -72,14 +66,12 @@ function searchJson(userData, jsonData) {
 
 
     function hpRange(userValue, jsonHp) {
-        // debugger
+        
         let numHp = parseInt(jsonHp);
         let min = numHp - 30;
         let max = numHp + 30;
         let result = (userValue >= min && userValue <= max);
-        // console.log(min, max)
-        // console.log(userValue)
-        // console.log(result)
+
         return result;
     }
 

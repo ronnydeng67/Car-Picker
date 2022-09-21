@@ -124,6 +124,7 @@ img{
     display: flex;
     flex-direction: column;
     background-color: #DCC7AA;
+    border-radius: 6%;
 }
 
 .sliders {
@@ -181,7 +182,7 @@ img{
 .btm_box {
     width: 100%;
     height: 20%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;

@@ -31,7 +31,7 @@ submitButton.addEventListener("click", e => {
         setTimeout(function(){
             document.querySelector(".result").style.display="block";
             document.querySelector(".loading_page").style.display="none";
-        }, 500)
+        }, 1500)
     }
     switchResult();
 

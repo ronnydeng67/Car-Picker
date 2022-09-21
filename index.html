@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="./dist/main.css">
     <link rel="shortcut icon" href="./images/BMW_logo_(white).svg.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <title>Car show page</title>
+    <title>Car Picker</title>
 </head>
 <body>
 
     <header class="header" id="header">
         <nav class="nav bar">
-            <a href="#" class="navLogos">
+            <a href="./index.html" class="navLogos">
                 <i class="ri-steering-2-fill"></i>
                 <h1>Car Picker</h1>
             </a>
@@ -26,12 +26,12 @@
                     <li class="linkedin">
                         <a href="#about" class="navLinkedin"><img src="./images/linkedin_logo.png" width="34" height="0"></a>
                     </li>
-                    <li class="navItem">
+                    <!-- <li class="navItem">
                         <a href="#popular" class="navLink">Popular</a>
                     </li>
                     <li class="navItem">
                         <a href="#featured" class="navLink">Featured</a>
-                    </li>
+                    </li> -->
                 </ul>
 
             </div>
@@ -105,32 +105,43 @@
                 <div class="two_cars">
                     <div class="fir_car">
                         You match would be: 
-                        <span id="brand1"></span>
-                        <span id="model1"></span>
-                        <div class="result_img">
-                            <a id="image_link" href="#">
-                                <img id="unsplash_imge" alt="">
-                            </a>
+                        <div class="result_text1">
+                            <span id="brand1"></span>
+                            <span>&nbsp;</span>
+                            <span id="model1"></span>
+                        </div>
+                        <div class="result_img1">
+                            <div class="pic_1">
+                                <a id="image_link1" href="#">
+                                    <img id="unsplash_imge1" alt="">
+                                </a>
+                            </div>
+                            <div class="pic_2">
+                                <a href="#" id="image_link2">
+                                    <img id="unsplash_imge2" alt="">
+                                </a>
+                            </div>
+                            <div class="pic_3">
+                                <a href="#" id="image_link3">
+                                    <img id="unsplash_imge3" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
     
-                    <div class="sec_car">
-                        second car
-                        <span id="car_2"></span>
-                    </div>
                 </div>
                 <div class="chart">
                     chart
                 </div>
             </div>
             <div class="buttonContainer">
-                <button class="close">Close</button>
+                <button class="close">Get me others!</button>
             </div>
         </div>
 
         <div class="loading_page">
             <div class="loader">
-                <img src="./images/loading.gif" class="loading">
+                <img src="./images/loading-87.webp" class="loading">
             </div>
         </div>
 </body>
