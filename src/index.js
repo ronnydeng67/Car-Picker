@@ -1,6 +1,7 @@
-import { hpSlider, fuelSlider, budgetSlider, capacitySlider } from './scripts/slider.js'
+import { hpSlider, fuelSlider, budgetSlider, capacitySlider } from './scripts/slider.js';
 // import { getValue } from './scripts/button.js'
 // import { changeSliderValue } from './scripts/button.js';
+const searchJson = require("./scripts/search.js");
 
 hpSlider();
 fuelSlider();
@@ -45,6 +46,15 @@ submitButton.addEventListener("click", e => {
             "ev": ev
             }
             console.log(userInput);
+    
+
+    fetch("cars.json")
+    .then(data => data.json())
+    .then(data => {
+        // debugger
+        searchJson(userInput, data);
+    })
+
 });
 
     let hp1 = document.getElementById("hp_range")
