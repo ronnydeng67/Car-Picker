@@ -26,14 +26,15 @@ function searchJson(userData, jsonData) {
         // }
         for (let i = 0; i < data.length; i++) {
             let obj = data[i];
-            console.log(inputData.trans === obj.transmission);
-            debugger
+            // console.log(inputData.transmission === obj.transmission);
+            // debugger
             if (
                 hpRange(inputData.hp, obj.hp) &&
                 fuelRange(inputData.fuel, obj.fuel) && 
                 priceRange(inputData.price, obj.price) &&
                 (inputData.capacity == obj.capacity) &&
-                (inputData.trans === obj.transmission) &&
+                (inputData.body === obj.body) &&
+                (inputData.transmission === obj.transmission) &&
                 (inputData.awd === obj.awd) &&
                 (inputData.ev === obj.ev)
             ) {

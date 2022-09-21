@@ -9,8 +9,8 @@
             "capacity": "5",
             "body": "sedan",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "toyota",
             "model": "camry",
