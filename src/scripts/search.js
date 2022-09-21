@@ -42,7 +42,31 @@ function searchJson(userData, jsonData) {
             }
         }
         console.log(res)
-        return res;
+        if (res.length === 0) {
+            document.getElementById("brand1").innerHTML = "No cars found!!"
+        } else {
+            document.getElementById("brand1").innerHTML = res[0].brand;
+            document.getElementById("model1").innerHTML = res[0].model;
+
+            let keyWord = res[0].brand + '' + res[0].model;
+            let accessKey = "nJQFxVnXFwVju-EBYAE1jndUUt1suJC9BMs1iPg_Zl8";
+            let endpoint = `https://api.unsplash.com/search/photos?query=${keyWord}&client_id=${accessKey}&per_page=1&page=1`
+            let acutalImage = document.querySelector("#unsplash_imge");
+            let imageLink = document.querySelector("#image_link");
+    
+            fetch(endpoint)
+            .then((response) => {
+                return response.json()
+            })
+            .then((unsplashImage) => {
+                console.log(unsplashImage)
+                debugger
+                    acutalImage.src = unsplashImage.results.urls.small;
+                })
+            // return res;
+        }
+
+        
     }
 
 
@@ -83,4 +107,5 @@ function searchJson(userData, jsonData) {
     findMatch();
 }
 
+module.exports = searchJson;
 module.exports = searchJson;

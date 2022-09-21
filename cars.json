@@ -20,8 +20,8 @@
             "capacity": "5",
             "body": "sedan",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "toyota",
             "model": "avalon",
@@ -31,8 +31,8 @@
             "capacity": "5",
             "body": "sedan",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "toyota",
             "model": "supra",
@@ -42,8 +42,8 @@
             "capacity": "2",
             "body": "coupe",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "toyota",
             "model": "rav4",
@@ -53,8 +53,8 @@
             "capacity": "5",
             "body": "suv",
             "transmission": "automatic",
-            "awd": "true",
-            "ev": "false"
+            "awd": true,
+            "ev": false
         }, {
             "brand": "toyota",
             "model": "highlander",
@@ -64,8 +64,8 @@
             "capacity": "7",
             "body": "suv",
             "transmission": "automatic",
-            "awd": "true",
-            "ev": "false"
+            "awd": true,
+            "ev": false
         }, {
             "brand": "toyota",
             "model": "sienna",
@@ -75,8 +75,8 @@
             "capacity": "8",
             "body": "minivan",
             "transmission": "automatic",
-            "awd": "true",
-            "ev": "false"
+            "awd": true,
+            "ev": false
         }, {
             "brand": "honda",
             "model": "civic",
@@ -86,8 +86,8 @@
             "capacity": "5",
             "body": "hatchback",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "bmw",
             "model": "330",
@@ -97,8 +97,8 @@
             "capacity": "5",
             "body": "sedan",
             "transmission": "automatic",
-            "awd": "true",
-            "ev": "false"
+            "awd": true,
+            "ev": false
         }, {
             "brand": "bmw",
             "model": "430",
@@ -108,8 +108,8 @@
             "capacity": "4",
             "body": "coupe",
             "transmission": "automatic",
-            "awd": "true",
-            "ev": "false"
+            "awd": true,
+            "ev": false
         }, {
             "brand": "bmw",
             "model": "x3",
@@ -119,8 +119,8 @@
             "capacity": "5",
             "body": "suv",
             "transmission": "automatic",
-            "awd": "true",
-            "ev": "false"
+            "awd": true,
+            "ev": false
         }, {
             "brand": "bmw",
             "model": "x7",
@@ -130,8 +130,8 @@
             "capacity": "7",
             "body": "suv",
             "transmission": "automatic",
-            "awd": "true",
-            "ev": "false"
+            "awd": true,
+            "ev": false
         }, {
             "brand": "bmw",
             "model": "430",
@@ -141,8 +141,8 @@
             "capacity": "4",
             "body": "coupe",
             "transmission": "automatic",
-            "awd": "true",
-            "ev": "false"
+            "awd": true,
+            "ev": false
         }, {
             "brand": "volkswagen",
             "model": "golf",
@@ -152,8 +152,8 @@
             "capacity": "5",
             "body": "hatchback",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "bmw",
             "model": "430",
@@ -163,8 +163,8 @@
             "capacity": "4",
             "body": "coupe",
             "transmission": "automatic",
-            "awd": "true",
-            "ev": "false"
+            "awd": true,
+            "ev": false
         }, {
             "brand": "mazda",
             "model": "3",
@@ -174,8 +174,8 @@
             "capacity": "5",
             "body": "hatchback",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "nissan",
             "model": "kicks",
@@ -185,8 +185,8 @@
             "capacity": "5",
             "body": "hatchback",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "honda",
             "model": "odyssey",
@@ -196,8 +196,8 @@
             "capacity": "8",
             "body": "minivan",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "kia",
             "model": "sedona",
@@ -207,8 +207,8 @@
             "capacity": "8",
             "body": "minivan",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "ford",
             "model": "f-150",
@@ -218,8 +218,8 @@
             "capacity": "3",
             "body": "pickup",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "ram",
             "model": "1500",
@@ -229,8 +229,8 @@
             "capacity": "6",
             "body": "pickup",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "hyundai",
             "model": "veloster",
@@ -240,8 +240,8 @@
             "capacity": "5",
             "body": "hatchback",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "ford",
             "model": "mustang",
@@ -251,8 +251,8 @@
             "capacity": "4",
             "body": "coupe",
             "transmission": "automatic",
-            "awd": "false",
-            "ev": "false"
+            "awd": false,
+            "ev": false
         }, {
             "brand": "audi",
             "model": "tt",
@@ -262,8 +262,8 @@
             "capacity": "4",
             "body": "coupe",
             "transmission": "automatic",
-            "awd": "true",
-            "ev": "false"
+            "awd": true,
+            "ev": false
         }
         
 ]
