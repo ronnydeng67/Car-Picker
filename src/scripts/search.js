@@ -48,9 +48,11 @@ function searchJson(userData, jsonData) {
             document.getElementById("brand1").innerHTML = res[0].brand;
             document.getElementById("model1").innerHTML = res[0].model;
 
-            let keyWord = res[0].brand + '' + res[0].model;
+            let keyWord = res[0].brand + " " + res[0].model;
+            console.log(keyWord)
+            debugger
             let accessKey = "nJQFxVnXFwVju-EBYAE1jndUUt1suJC9BMs1iPg_Zl8";
-            let endpoint = `https://api.unsplash.com/search/photos?query=${keyWord}&client_id=${accessKey}&per_page=1&page=1`
+            let endpoint = `https://api.unsplash.com/search/photos?query=${keyWord}&client_id=${accessKey}&per_page=1`
             let acutalImage = document.querySelector("#unsplash_imge");
             let imageLink = document.querySelector("#image_link");
     
@@ -59,10 +61,9 @@ function searchJson(userData, jsonData) {
                 return response.json()
             })
             .then((unsplashImage) => {
-                console.log(unsplashImage)
-                debugger
-                    acutalImage.src = unsplashImage.results.urls.small;
-                })
+                console.log(unsplashImage.results[0].urls.small)
+                    acutalImage.src = unsplashImage.results[0].urls.small;
+            })
             // return res;
         }
 
@@ -73,8 +74,8 @@ function searchJson(userData, jsonData) {
     function hpRange(userValue, jsonHp) {
         // debugger
         let numHp = parseInt(jsonHp);
-        let min = numHp - 25;
-        let max = numHp + 25;
+        let min = numHp - 30;
+        let max = numHp + 30;
         let result = (userValue >= min && userValue <= max);
         // console.log(min, max)
         // console.log(userValue)
