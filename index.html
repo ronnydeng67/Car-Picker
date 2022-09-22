@@ -17,17 +17,20 @@
                 <i class="ri-steering-2-fill"></i>
                 <div class="title">Car Picker</div>
             </a>
-
+            
+            <span class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore culpa vel explicabo maiores adipisci a quibusdam eaque ad, iste ulla.</span>
             <div class="navMenu" id="navMenu">
                 <ul class="navList">
+                    <li class="about">
+                        <a href="#" class="aboutLink"><i class="ri-information-fill"></i></a>
+                    </li>
                     <li class="github">
                         <a href="https://github.com/ronnydeng67" class="navLink"><img src="./images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png"></a>
                     </li>
                     <li class="linkedin">
-                        <a href="#about" class="navLinkedin"><img src="./images/linkedin_logo.png" width="34" height="0"></a>
+                        <a href="#" class="navLinkedin"><img src="./images/linkedin_logo.png" width="34" height="0"></a>
                     </li>
                 </ul>
-
             </div>
         </nav>
     </header>
@@ -43,15 +46,15 @@
                 </div>
                 <div class="fuel_economy">
                     <div class="fuel_container">
-                        Fuel Economy: <span id="fuel_value">22</span> MPG
+                        Fuel Economy: <span id="fuel_value">28</span> MPG
                     </div>
-                        <input type="range" min="12" value="22" max="32" step="2" class="fuelSlider" id="fuel_range">
+                        <input type="range" min="16" value="28" max="40" step="2" class="fuelSlider" id="fuel_range">
                 </div>
                 <div class="budget">
                     <div class="budget_container">
-                        Budget: <span id="budget_value">35</span> K
+                        Budget: <span id="budget_value">60</span> K
                     </div>
-                        <input type="range" min="10" value="45" max="80" step="5" class="budgetSlider" id="budget_range">
+                        <input type="range" min="20" value="60" max="100" step="5" class="budgetSlider" id="budget_range">
                 </div>
                 <div class="capacity">
                     <div class="capacity_container">
@@ -124,7 +127,7 @@
     
                 </div>
                 <div class="info_box">
-                    <ul>
+                    <ul id="inner_info">
                         <li id="brand_info">
                             Brand: <span id="car_brand"></span>
                         </li>
@@ -156,6 +159,15 @@
                 <img src="./images/loading-87.webp" class="loading">
             </div>
         </div>
+
+        <!-- <div class="error">
+            <div class="err_box">
+                <img src="./images/background-error-svg.png" alt="" class="error_imge">
+            </div>
+                <span class="error_mes">Sorry, No Car Found!! </span>
+                <button class="err_close">close</button>
+        </div> -->
 </body>
 <script src="./dist/main.js" type="text/javascript"></script>
 </html>
+

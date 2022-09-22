@@ -116,7 +116,7 @@ img{
     height: 750px;
     /* border: 1px solid white; */
     padding: 50px;
-    margin: 20px;
+    margin: 25px 100px 20px 100px;
     display: flex;
     flex-direction: column;
     background-color: #DCC7AA;
@@ -203,6 +203,7 @@ img{
 input[type=checkbox] {
     transform: scale(1.8);
     transition: .2s;
+    cursor: pointer;
 }
 
 input[type=checkbox]:hover {
@@ -227,5 +228,24 @@ select {
 select:hover {
     background: #323741;
     transform: scale(1.2);
+}
+
+.ri-information-fill {
+    color: white;
+    font-size: 2.1rem;
+}
+
+.aboutText {
+    display: none;
+    width: 21%;
+    top: 100px;
+    left: 65%;
+    height: auto;
+    position: relative;
+    border: 1px solid white;
+    color:aquamarine;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
 }
 

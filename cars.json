@@ -279,8 +279,8 @@
             "brand": "tesla",
             "model": "model x",
             "hp": "600",
-            "fuel": "32",
-            "price": "80",
+            "fuel": "40",
+            "price": "100",
             "capacity": "5",
             "body": "suv",
             "transmission": "automatic",
@@ -310,7 +310,7 @@
             "ev": false
         }, {
             "brand": "lexus",
-            "model": "",
+            "model": "rx 350",
             "hp": "295",
             "fuel": "23",
             "price": "46",
@@ -319,6 +319,128 @@
             "transmission": "automatic",
             "awd": true,
             "ev": false
+        }, {
+            "brand": "mercedes benz",
+            "model": "c300",
+            "hp": "255",
+            "fuel": "27",
+            "price": "46",
+            "capacity": "5",
+            "body": "sedan",
+            "transmission": "automatic",
+            "awd": true,
+            "ev": false
+        }, {
+            "brand": "subaru",
+            "model": "crosstrek",
+            "hp": "271",
+            "fuel": "32",
+            "price": "24",
+            "capacity": "5",
+            "body": "suv",
+            "transmission": "automatic",
+            "awd": true,
+            "ev": false
+        }, {
+            "brand": "subaru",
+            "model": "crosstrek",
+            "hp": "271",
+            "fuel": "25",
+            "price": "24",
+            "capacity": "5",
+            "body": "suv",
+            "transmission": "automatic",
+            "awd": true,
+            "ev": false
+        }, {
+            "brand": "jeep",
+            "model": "grand cherokee",
+            "hp": "294",
+            "fuel": "22",
+            "price": "38",
+            "capacity": "5",
+            "body": "suv",
+            "transmission": "automatic",
+            "awd": true,
+            "ev": false
+        }, {
+            "brand": "subaru",
+            "model": "crosstrek",
+            "hp": "271",
+            "fuel": "32",
+            "price": "24",
+            "capacity": "5",
+            "body": "suv",
+            "transmission": "automatic",
+            "awd": true,
+            "ev": false
+        }, {
+            "brand": "nissan",
+            "model": "pathfinder",
+            "hp": "284",
+            "fuel": "23",
+            "price": "35",
+            "capacity": "7",
+            "body": "suv",
+            "transmission": "automatic",
+            "awd": true,
+            "ev": false
+        }, {
+            "brand": "chrysler",
+            "model": "300",
+            "hp": "292",
+            "fuel": "23",
+            "price": "34",
+            "capacity": "5",
+            "body": "sedan",
+            "transmission": "automatic",
+            "awd": false,
+            "ev": false
+        }, {
+            "brand": "mercedes benz",
+            "model": "glc 300",
+            "hp": "255",
+            "fuel": "25",
+            "price": "43",
+            "capacity": "5",
+            "body": "suv",
+            "transmission": "automatic",
+            "awd": true,
+            "ev": false
+        }, {
+            "brand": "audi",
+            "model": "s4",
+            "hp": "349",
+            "fuel": "24",
+            "price": "60",
+            "capacity": "5",
+            "body": "sedan",
+            "transmission": "automatic",
+            "awd": true,
+            "ev": false
+        }, {
+            "brand": "mercedes benz",
+            "model": "glc 300",
+            "hp": "255",
+            "fuel": "25",
+            "price": "43",
+            "capacity": "5",
+            "body": "suv",
+            "transmission": "automatic",
+            "awd": true,
+            "ev": false
+        }, {
+            "brand": "audi",
+            "model": "a6",
+            "hp": "335",
+            "fuel": "26",
+            "price": "59",
+            "capacity": "5",
+            "body": "sedan",
+            "transmission": "automatic",
+            "awd": false,
+            "ev": false
         }
+        
         
 ]

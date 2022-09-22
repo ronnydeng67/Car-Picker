@@ -1,5 +1,5 @@
-const renderInfo = require("./info.js");
 
+const renderInfo = require("./info.js");
 
 function searchJson(userData, jsonData) {
     let inputData = userData;
@@ -23,13 +23,16 @@ function searchJson(userData, jsonData) {
                 (inputData.transmission === obj.transmission) &&
                 (inputData.awd === obj.awd) &&
                 (inputData.ev === obj.ev)
+
+                
             ) {
                 res.push(obj);
             }
         }
         
         if (res.length === 0) {
-            document.getElementById("brand1").innerHTML = "No cars found!!"
+            document.getElementById("brand1").innerHTML = "Sorry, No cars found!!"
+            document.querySelector("#inner_info").style.display="none"
         } else {
             document.getElementById("brand1").innerHTML = res[0].brand;
             document.getElementById("model1").innerHTML = res[0].model;

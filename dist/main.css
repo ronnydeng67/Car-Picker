@@ -1,6 +1,18 @@
+/*!**************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/new.css ***!
+  \**************************************************************************************************/
 @import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Rubik+Maze&display=swap);
+/*!*********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/slider_num.css ***!
+  \*********************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Courgette);
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
+  \*************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
+/*!******************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/new.css (1) ***!
+  \******************************************************************************************************/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -117,7 +129,7 @@ img{
     height: 750px;
     /* border: 1px solid white; */
     padding: 50px;
-    margin: 20px;
+    margin: 25px 100px 20px 100px;
     display: flex;
     flex-direction: column;
     background-color: #DCC7AA;
@@ -204,6 +216,7 @@ img{
 input[type=checkbox] {
     transform: scale(1.8);
     transition: .2s;
+    cursor: pointer;
 }
 
 input[type=checkbox]:hover {
@@ -230,7 +243,29 @@ select:hover {
     transform: scale(1.2);
 }
 
+.ri-information-fill {
+    color: white;
+    font-size: 2.1rem;
+}
 
+.aboutText {
+    display: none;
+    width: 21%;
+    top: 100px;
+    left: 65%;
+    height: auto;
+    position: relative;
+    border: 1px solid white;
+    color:aquamarine;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/slider_num.css (1) ***!
+  \*************************************************************************************************************/
 #hp_value,
 #fuel_value,
 #budget_value,
@@ -288,6 +323,9 @@ select:hover {
 .capacitySlider::-webkit-slider-thumb:hover {
     transform: scale(1.5);
 }
+/*!*****************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/result.css ***!
+  \*****************************************************************************************************/
 .result {
     display: none;
 }
@@ -320,8 +358,24 @@ select:hover {
     box-shadow: 0 9px gray;
 }
 
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
 .close:hover {
     background-color: skyblue;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
 
 .close:active {
@@ -347,23 +401,19 @@ select:hover {
 
 }
 
-.chart {
-    width: 100%;
-    height: 250px;
-    /* border: 1px solid white; */
-}
-
 
 .result_text1 {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
+    border-radius: 5px;
 }
 
 #brand1,
 #model1 {
     text-transform: capitalize;
-    font-size: medium;
+    font-size: larger;
+    color:tomato;
 }
 
 
@@ -410,18 +460,38 @@ select:hover {
     height: 280px;
     background-color: rgb(47, 159, 122);
     box-shadow: 0 5px 8px 0 rgba(0,0,0,.5);
+    border-radius: 5px;
 }
 
 .info_box ul {
     font-size: x-large;
     text-transform: capitalize;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#inner_info {
+    animation: fadeIn 5s;
+    display: block;
+}
+/*!*****************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/loader.css ***!
+  \*****************************************************************************************************/
 .loader {
     padding-top: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.title{font-size:3rem;-webkit-appearance:none;color:orange;font-family:Pacifico}
-
-/*# sourceMappingURL=main.css.map*/
+/*!*****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss (1) ***!
+  \*****************************************************************************************************************************************/
+.title {
+  font-size: 3rem;
+  -webkit-appearance: none;
+  color: orange;
+  font-family: Pacifico;
+}

@@ -1,4 +1,3 @@
-// const { render } = require("sass");
 
 
 function renderInfo(carData) {

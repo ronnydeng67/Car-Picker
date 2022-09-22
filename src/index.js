@@ -22,6 +22,7 @@ submitButton.addEventListener("click", e => {
     let switchResult = function() {
         document.querySelector(".loading_page").style.display="block";
         document.querySelector(".main").style.display="none";
+        
         setTimeout(function(){
             document.querySelector(".result").style.display="block";
             document.querySelector(".loading_page").style.display="none";
@@ -66,4 +67,14 @@ const closeButton = document.querySelector(".close");
 closeButton.addEventListener("click", function() {
     document.querySelector(".main").style.display="block";
     document.querySelector(".result").style.display="none";
+})
+
+const aboutButton = document.querySelector(".aboutLink");
+
+aboutButton.addEventListener("click", e => {
+    if (document.querySelector(".aboutText").style.display === "none") {
+        document.querySelector(".aboutText").style.display="block"
+    } else {
+        document.querySelector(".aboutText").style.display="none"
+    }
 })
