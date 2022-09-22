@@ -219,10 +219,18 @@ select {
     width: 120px;
     height: 30px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 5px #2a2f3b solid;
     cursor: pointer;
+    background: #2a2f3b;
+    color: #fff;
+    padding: 5px;
+    transition: background .3s;
+    border-radius: 8px;
 }
 
+select:hover {
+    background: #323741;
+}
 
 
 
@@ -263,7 +271,7 @@ select {
     width: 25px;
     background-color:black;
     border-radius: 50%;
-    border: 1px solid rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
     box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
     -webkit-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
     -moz-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
@@ -370,9 +378,9 @@ select {
 }
 
 .pic_1:hover {
-    transform: scale(2.0);
+    transform: scale(2.5);
     /* transform: translateY(50%); */
-    margin-left: 500px;
+    margin-left: 280px;
     margin-top: 150px;
 }
 
@@ -381,8 +389,9 @@ select {
 }
 
 .pic_2:hover {
-    transform: scale(2.0);
+    transform: scale(2.5);
     margin-top: 150px;
+    /* box-shadow: 0 5px 70px rgba(0,0,0,.25); */
 }
 
 .pic_3 {
@@ -390,9 +399,22 @@ select {
 }
 
 .pic_3:hover {
-    transform: scale(2.0);
-    margin-right: 500px;
+    transform: scale(2.5);
+    margin-right: 280px;
     margin-top: 150px;
+}
+
+.info_box {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: 280px;
+    background-color: aquamarine;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,.5);
+}
+
+.info_box ul {
+    font-size: x-large;
 }
 /*!*****************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/loader.css ***!

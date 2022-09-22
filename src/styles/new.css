@@ -210,9 +210,17 @@ select {
     width: 120px;
     height: 30px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 5px #2a2f3b solid;
     cursor: pointer;
+    background: #2a2f3b;
+    color: #fff;
+    padding: 5px;
+    transition: background .3s;
+    border-radius: 8px;
 }
 
+select:hover {
+    background: #323741;
+}
 
 

@@ -1,3 +1,4 @@
+const renderInfo = require("./info.js");
 
 
 function searchJson(userData, jsonData) {
@@ -8,7 +9,7 @@ function searchJson(userData, jsonData) {
 
         let res = [];
         
-        console.log(data);
+        
 
         for (let i = 0; i < data.length; i++) {
             let obj = data[i];
@@ -26,7 +27,7 @@ function searchJson(userData, jsonData) {
                 res.push(obj);
             }
         }
-        console.log(res)
+        
         if (res.length === 0) {
             document.getElementById("brand1").innerHTML = "No cars found!!"
         } else {
@@ -49,8 +50,7 @@ function searchJson(userData, jsonData) {
                 return response.json()
             })
             .then((unsplashImage) => {
-                console.log(unsplashImage.results[1])
-                debugger
+
                 acutalImage.src = unsplashImage.results[0].urls.small;
                 imageLink.setAttribute("href", unsplashImage.results[0].links.html);
                 acutalImage2.src = unsplashImage.results[1].urls.small;
@@ -58,7 +58,8 @@ function searchJson(userData, jsonData) {
                 acutalImage3.src = unsplashImage.results[2].urls.small;
                 imageLink3.setAttribute("href", unsplashImage.results[2].links.html);
             })
-            // return res;
+
+            renderInfo(res[0]);
         }
 
         
@@ -76,13 +77,13 @@ function searchJson(userData, jsonData) {
     }
 
     function fuelRange(userValue, jsonHp) {
-        // debugger
+        
         let numHp = parseInt(jsonHp);
         let min = numHp - 2;
         let max = numHp + 2;
 
         let result = (userValue >= min && userValue <= max);
-        // console.log(result)
+        
         return result;
     }
 
@@ -92,7 +93,7 @@ function searchJson(userData, jsonData) {
         let max = numHp + 2;
 
         let result = (userValue >= min && userValue <= max);
-        // console.log(result)
+        
 
         return result;
     }
@@ -100,5 +101,4 @@ function searchJson(userData, jsonData) {
     findMatch();
 }
 
-module.exports = searchJson;
 module.exports = searchJson;

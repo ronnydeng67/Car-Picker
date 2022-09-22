@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/main.css">
-    <link rel="shortcut icon" href="./images/BMW_logo_(white).svg.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/icons8-car-16.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Car Picker</title>
 </head>
@@ -21,17 +21,11 @@
             <div class="navMenu" id="navMenu">
                 <ul class="navList">
                     <li class="github">
-                        <a href="#home" class="navLink"><img src="./images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png"></a>
+                        <a href="https://github.com/ronnydeng67" class="navLink"><img src="./images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png"></a>
                     </li>
                     <li class="linkedin">
                         <a href="#about" class="navLinkedin"><img src="./images/linkedin_logo.png" width="34" height="0"></a>
                     </li>
-                    <!-- <li class="navItem">
-                        <a href="#popular" class="navLink">Popular</a>
-                    </li>
-                    <li class="navItem">
-                        <a href="#featured" class="navLink">Featured</a>
-                    </li> -->
                 </ul>
 
             </div>
@@ -70,9 +64,8 @@
             <div class="btm_box">
                 <label for="body" class="bodyStyle">Body Style:
                     <select name="car" id="car_body">
-                        <option value="any">Any</option>
                         <option value="suv">SUV</option>
-                        <option value="sedan">Sedan</option>
+                        <option value="sedan" selected>Sedan</option>
                         <option value="pickup">Pickup</option>
                         <option value="minivan">Minivan</option>
                         <option value="coupe">Coupe</option>
@@ -82,7 +75,7 @@
                 <label for="transmission" class="transmission">Transmission:
                     <select name="car" id="car_transmission">
                         <option value="any">Any</option>
-                        <option value="automatic">Automatic</option>
+                        <option value="automatic" selected>Automatic</option>
                         <option value="manual">Manual</option>
                     </select>
                 </label>
@@ -130,8 +123,27 @@
                     </div>
     
                 </div>
-                <div class="chart">
-                    chart
+                <div class="info_box">
+                    <ul>
+                        <li id="brand_info">
+                            Brand: <span id="car_brand"></span>
+                        </li>
+                        <li id="model_info">
+                            Model: <span id="car_model"></span>
+                        </li>
+                        <li id="hp_info">
+                            Horsepower: <span id="car_hp"></span>
+                        </li>
+                        <li id="fuel_info">
+                            Fuel Economy: <span id="car_fuel"></span>
+                        </li>
+                        <li id="price_info">
+                            Average Price: <span id="car_price"></span>K
+                        </li>
+                        <li id="seat_info">
+                            Seats: <span id="car_seat"></span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="buttonContainer">

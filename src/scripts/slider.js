@@ -4,7 +4,7 @@ export const hpSlider = () => {
 
     var output = document.getElementById("hp_value");
     
-    var slider = document.getElementById("hp_range").oninput = function() {
+    document.getElementById("hp_range").oninput = function() {
         
         var value = (this.value - this.min) / (this.max - this.min) * 100;
 
@@ -19,7 +19,7 @@ export const hpSlider = () => {
 export const fuelSlider = () => {
 
     var output = document.getElementById("fuel_value");
-    var slider = document.getElementById("fuel_range").oninput = function() {
+    document.getElementById("fuel_range").oninput = function() {
         
         var value = (this.value - this.min) / (this.max - this.min) * 100;
 
@@ -34,7 +34,7 @@ export const fuelSlider = () => {
 export const budgetSlider = () => {
 
     var output = document.getElementById("budget_value");
-    var slider = document.getElementById("budget_range").oninput = function() {
+    document.getElementById("budget_range").oninput = function() {
         
         var value = (this.value - this.min) / (this.max - this.min) * 100;
 
@@ -49,7 +49,7 @@ export const budgetSlider = () => {
 export const capacitySlider = () => {
 
     var output = document.getElementById("capacity_value");
-    var slider = document.getElementById("capacity_range").oninput = function() {
+    document.getElementById("capacity_range").oninput = function() {
         
         var value = (this.value - this.min) / (this.max - this.min) * 100;
 
