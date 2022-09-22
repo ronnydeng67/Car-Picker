@@ -1,4 +1,13 @@
 @import "./styles/new.css";
 @import "./styles/slider_num.css";
 @import "./styles/result.css";
-@import "./styles/loader.css"
+@import "./styles/loader.css";
+// @import "./styles/reset.css";
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.title {
+    font-size: 3rem;
+    -webkit-appearance: none;
+    color: orange;
+    font-family: Pacifico;
+}
