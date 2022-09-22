@@ -14,14 +14,14 @@
 .fuelSlider,
 .budgetSlider,
 .capacitySlider {
-    background-color: linear-gradient(to right, #6b8dff 0%, red 0%, blue 0%, yellow 100%);
+    /* background-color: linear-gradient(to right, #6b8dff 0%, red 0%, blue 0%, yellow 100%); */
     height: 15px;
     transition: background 450ms ease-in;
     -webkit-appearance: none;
     border-radius: 25px;
-    box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+    /* box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
     -webkit-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
-    -moz-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75);
+    -moz-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0, 0.75); */
 }
 
 .horsepowerSlider::-webkit-slider-thumb,

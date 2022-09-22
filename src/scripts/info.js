@@ -1,8 +1,8 @@
 
 
 function renderInfo(carData) {
-    console.log(carData);
-    debugger
+    // console.log(carData);
+    // debugger
     document.getElementById("car_brand").innerHTML = carData.brand;
     document.getElementById("car_model").innerHTML = carData.model;
     document.getElementById("car_hp").innerHTML = carData.hp;
