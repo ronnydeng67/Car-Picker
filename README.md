@@ -1,6 +1,7 @@
 # Car Picker
 
 JS Project :red_car: :oncoming_automobile:
+Click here: https://ronnydeng67.github.io/Car-Picker/
 
 ## Background
 
@@ -17,7 +18,8 @@ In Car Picker, users will be able to:
 
 ## Technologies, APIs
 
-- Chart.js
+- Unsplash API
+- Fetch API
 
 ## Wireframe
 
