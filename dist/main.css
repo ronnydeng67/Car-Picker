@@ -1,18 +1,6 @@
-/*!**************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/new.css ***!
-  \**************************************************************************************************/
 @import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Rubik+Maze&display=swap);
-/*!*********************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/slider_num.css ***!
-  \*********************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Courgette);
-/*!*************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
-  \*************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
-/*!******************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/new.css (1) ***!
-  \******************************************************************************************************/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -243,9 +231,6 @@ select:hover {
 }
 
 
-/*!*************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/slider_num.css (1) ***!
-  \*************************************************************************************************************/
 #hp_value,
 #fuel_value,
 #budget_value,
@@ -303,9 +288,6 @@ select:hover {
 .capacitySlider::-webkit-slider-thumb:hover {
     transform: scale(1.5);
 }
-/*!*****************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/result.css ***!
-  \*****************************************************************************************************/
 .result {
     display: none;
 }
@@ -434,21 +416,12 @@ select:hover {
     font-size: x-large;
     text-transform: capitalize;
 }
-/*!*****************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/loader.css ***!
-  \*****************************************************************************************************/
 .loader {
     padding-top: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/*!*****************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss (1) ***!
-  \*****************************************************************************************************************************************/
-.title {
-  font-size: 3rem;
-  -webkit-appearance: none;
-  color: orange;
-  font-family: Pacifico;
-}
+.title{font-size:3rem;-webkit-appearance:none;color:orange;font-family:Pacifico}
+
+/*# sourceMappingURL=main.css.map*/
