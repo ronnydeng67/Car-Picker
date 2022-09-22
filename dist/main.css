@@ -25,7 +25,7 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1rem;
     background-color: hsl(0, 0%, 0%);
-    overflow: hidden;
+    overflow:scroll;
     position: relative;
     background-image: url(https://github.com/ronnydeng67/Car-Picker/blob/main/images/milky-way-gfb9ddee9a_1920.jpg?raw=true);
 }
@@ -123,7 +123,7 @@ img{
 
 .center_box {
     width: 100wd;
-    height: 750px;
+    height: 720px;
     /* border: 1px solid white; */
     padding: 50px;
     margin: 25px 100px 20px 100px;
