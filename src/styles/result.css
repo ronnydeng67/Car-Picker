@@ -103,6 +103,7 @@
     /* transform: translateY(50%); */
     margin-left: 280px;
     margin-top: 150px;
+    z-index: 1;
 }
 
 .pic_2 {
@@ -113,6 +114,7 @@
     transform: scale(2.5);
     margin-top: 150px;
     /* box-shadow: 0 5px 70px rgba(0,0,0,.25); */
+    z-index: 1;
 }
 
 .pic_3 {
@@ -123,6 +125,7 @@
     transform: scale(2.5);
     margin-right: 280px;
     margin-top: 150px;
+    z-index: 1;
 }
 
 .info_box {
@@ -130,9 +133,11 @@
     display: flex;
     justify-content: center;
     height: 280px;
-    background-color: rgb(47, 159, 122);
+    background-color: gray;
+    opacity: 80%;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,.5);
     border-radius: 5px;
+    color:black;
 }
 
 .info_box ul {
