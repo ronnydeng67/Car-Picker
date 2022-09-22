@@ -123,7 +123,7 @@ img{
 
 .center_box {
     width: 100wd;
-    height: 720px;
+    height: 700px;
     /* border: 1px solid white; */
     padding: 50px;
     margin: 25px 100px 20px 100px;
@@ -336,7 +336,7 @@ select:hover {
 
 .result_block {
     width: 100wd;
-    height: 750px;
+    height: 700px;
     padding: 20px;
     margin: 20px;
     /* border: 2px solid white; */
@@ -460,7 +460,7 @@ select:hover {
     padding-top: 30px;
     display: flex;
     justify-content: center;
-    height: 280px;
+    height: 260px;
     background-color: gray;
     opacity: 80%;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,.5);
