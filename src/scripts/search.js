@@ -23,9 +23,7 @@ function searchJson(userData, jsonData) {
                 (inputData.transmission === obj.transmission) &&
                 (inputData.awd === obj.awd) &&
                 (inputData.ev === obj.ev)
-
-                
-            ) {
+                ) {
                 res.push(obj);
             }
         }
