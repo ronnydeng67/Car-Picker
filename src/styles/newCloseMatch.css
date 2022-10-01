@@ -1,0 +1,41 @@
+.result_block {
+    width: 100wd;
+    height: 700px;
+    padding: 20px;
+    margin: 20px;
+    /* border: 2px solid white; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.result_text {
+    width: 100wd;
+    height: 50px;
+    border: 2px solid white;
+    margin-bottom: 5px;
+}
+
+.car_result {
+    display: flex;
+    flex-direction: row;
+    width: 100wd;
+    height: 600px;
+    border: 2px solid white;
+    justify-content: space-between;
+}
+
+.car1 {
+    width: 800px;
+    height: 580px;
+    border: 2px solid white;
+    margin: 5px;
+}
+
+.car2 {
+    margin: 5px;
+    width: 800px;
+    height: 580px;
+    border: 2px solid white;
+}
+
