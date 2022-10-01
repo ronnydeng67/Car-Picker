@@ -34,14 +34,26 @@ function searchJson(userData, jsonData) {
         // }
 
 
-        if (res.length < 2) {
-            findCloseMatch(inputData, data);
+        if (res.length === 0) {
+            let closeMatchCar = findCloseMatch(inputData, data);
+            res.push(closeMatchCar[0])
+            document.getElementById("found_result").innerHTML = "Sorry, I can't find a exact match, but here is your close match:"
+            // res.push(closeMatchCar[1])
         } else {
+            document.getElementById("found_result").innerHTML = "Your match woule be"
+        }
+        // else if (res.length === 1) {
+        //     let closeMatchCar = findCloseMatch(inputData, data);
+        //     res.push(closeMatchCar[1])
+        //     console.log(res)
+        // } 
+        
+            
             document.getElementById("brand1").innerHTML = res[0].brand;
             document.getElementById("model1").innerHTML = res[0].model;
 
             let keyWord = res[0].brand + " " + res[0].model;
-            console.log(keyWord)
+            // console.log(keyWord)
             let accessKey = "nJQFxVnXFwVju-EBYAE1jndUUt1suJC9BMs1iPg_Zl8";
             let endpoint = `https://api.unsplash.com/search/photos?query=${keyWord}&client_id=${accessKey}&per_page=3&orientation=landscape`
             let acutalImage = document.querySelector("#unsplash_imge1");
@@ -66,7 +78,7 @@ function searchJson(userData, jsonData) {
             })
 
             renderInfo(res[0]);
-        }
+        
 
         
     }
@@ -75,8 +87,8 @@ function searchJson(userData, jsonData) {
     function hpRange(userValue, jsonHp) {
         
         let numHp = parseInt(jsonHp);
-        let min = numHp - 30;
-        let max = numHp + 30;
+        let min = numHp - 25;
+        let max = numHp + 25;
         let result = (userValue >= min && userValue <= max);
 
         return result;

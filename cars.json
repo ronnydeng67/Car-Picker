@@ -287,17 +287,6 @@
             "awd": true,
             "ev": true
         }, {
-            "brand": "infiniti",
-            "model": "qx 60",
-            "hp": "400",
-            "fuel": "22",
-            "price": "58",
-            "capacity": "5",
-            "body": "sedan",
-            "transmission": "automatic",
-            "awd": false,
-            "ev": false
-        }, {
             "brand": "lexus",
             "model": "is 300",
             "hp": "241",
