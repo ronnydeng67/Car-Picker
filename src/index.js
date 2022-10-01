@@ -40,7 +40,6 @@ submitButton.addEventListener("click", e => {
             "awd": awd,
             "ev": ev
             }
-            console.log(userInput);
     
 
     fetch("cars.json")

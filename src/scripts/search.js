@@ -1,4 +1,4 @@
-
+const findCloseMatch = require("./closeMatch");
 const renderInfo = require("./info.js");
 
 function searchJson(userData, jsonData) {
@@ -28,9 +28,14 @@ function searchJson(userData, jsonData) {
             }
         }
         
-        if (res.length === 0) {
-            document.getElementById("brand1").innerHTML = "Sorry, No cars found!!"
+        // if (res.length === 0) {
+        //     document.getElementById("brand1").innerHTML = "Sorry, No cars found!!"
             
+        // }
+
+
+        if (res.length < 2) {
+            findCloseMatch(inputData, data);
         } else {
             document.getElementById("brand1").innerHTML = res[0].brand;
             document.getElementById("model1").innerHTML = res[0].model;
