@@ -25,17 +25,57 @@
     justify-content: space-between;
 }
 
-.car1 {
+/* .car1 {
     width: 800px;
     height: 580px;
     border: 2px solid white;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+} */
+.car1,
+.car2 {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    /* width: 800px; */
+    width: 49%;
+    height: 580px;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.car1_images_box,
+.car2_images_box {
+    display: flex;
+    flex-direction: column;
+    /* width: 450px; */
+    width: 55%;
+    height: 550px;
+    border: 1px solid white;
+    margin: 7px;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 auto;
+}
+
+.car1_pic1,
+.car1_pic2,
+.car2_pic1,
+.car2_pic2 {
+    /* width: 430px; */
+    width: 90%;
+    height: 250px;
+    border: 1px solid white;
     margin: 5px;
 }
 
-.car2 {
-    margin: 5px;
-    width: 800px;
-    height: 580px;
-    border: 2px solid white;
+.car1_info,
+.car2_info {
+    /* width: 280px; */
+    width: 35%;
+    height: 550px;
+    border: 1px solid white;
+    margin: 7px;
 }
 
