@@ -5,7 +5,7 @@ Click here: (https://ronnydeng67.github.io/Car-Picker/)
 
 ## Background
 
-Car Picker is a data visualiztion webapp that provide car suggestions to user based on the user's preferences. Perform a car search by features/criteria most vital to the users, disvover new car for users accourding to user's selections.
+Car Picker is a data visualization webapp that provide car suggestions to user based on the user's preferences. Perform a car search by features/criteria most vital to the users, disvover new car for users accourding to user's selections.
 
 - Preferences page:
 
