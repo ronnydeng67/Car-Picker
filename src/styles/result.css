@@ -106,7 +106,7 @@
 .pic_2:hover {
     transform: scale(2.3);
     margin-left: 140px;
-    margin-top: 100px;
+    margin-top: 50px;
     /* box-shadow: 0 5px 70px rgba(0,0,0,.25); */
     z-index: 1;
 }

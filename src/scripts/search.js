@@ -63,8 +63,12 @@ function searchJson(userData, jsonData) {
             imageLink2_2.setAttribute("href", unsplashImage1.results[1].links.html);
         })
 
-        console.log(res[0], res[1]);
 
+        const car1Link = document.querySelector("#explore-car1");
+        const car2Link = document.querySelector("#explore-car2");
+
+        car1Link.setAttribute("href", `https://www.edmunds.com/${res[0].brand}/${res[0].model}`)
+        car2Link.setAttribute("href", `https://www.edmunds.com/${res[1].brand}/${res[1].model}`)
         renderInfo(res[0], res[1]);
         
 

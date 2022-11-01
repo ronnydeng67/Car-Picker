@@ -17,12 +17,30 @@
                 <i class="ri-steering-2-fill"></i>
                 <div class="title">Car Picker</div>
             </a>
-            
-            <span class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore culpa vel explicabo maiores adipisci a quibusdam eaque ad, iste ulla.</span>
+            <div id="about-modal">
+                <div class="modal-content">
+                    <div class="about-content">
+                        <span class="close-modal"></span>
+                        <div class="modal-title">
+                            Car Picker is a web application that provide car suggestions based on your preferences.
+                        </div>
+                        <br>
+                        - Start with use the sliders to set your preferences on how much horsepower, fuel economy, budget on your car, also seats capacity.
+                        <br>
+                        - Then you can use the selects to choose your preferred body style and transmission.
+                        <br>
+                        - Finally choose whether you want your car to be all wheel drive or electrical.
+                        <br>
+                        <div class="modal-result">You will see two suggrested cars that match or similar to your preferences with pictures after you press the "Show me cars" button</div>
+                    </div>
+                </div>
+            </div>
+            <!-- <span class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore culpa vel explicabo maiores adipisci a quibusdam eaque ad, iste ulla.</span> -->
             <div class="navMenu" id="navMenu">
                 <ul class="navList">
                     <li class="about">
-                        <a href="#" class="aboutLink"><i class="ri-information-fill"></i></a>
+                        <!-- <a href="#" class="aboutLink"><i class="ri-information-fill"></i></a> -->
+                        <button id="about-button">About</button>
                     </li>
                     <li class="github">
                         <a href="https://github.com/ronnydeng67/Car-Picker" class="navLink"><img src="./images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png"></a>
@@ -126,6 +144,7 @@
                             <div class="fuel1">Fuel Economy: <span id="fuel1"></span></div>
                             <div class="price1">Price: <span id="price1"></span>K</div>
                             <div class="seats1">Capacity: <span id="seats1"></span></div>
+                            <div class="explore-more"><a target="_blank" id="explore-car1" href="">Explore more about this car</a></div>
                         </div>
                     </div>
                     <div class="car2">
@@ -152,6 +171,7 @@
                             <div class="fuel2">Fuel Economy: <span id="fuel2"></span></div>
                             <div class="price2">Price: <span id="price2"></span>K</div>
                             <div class="seats2">Capacity: <span id="seats2"></span></div>
+                            <div class="explore-more"><a target="_blank" id="explore-car2" href="">Explore more about this car</a></div>
                         </div>
                     </div>
                 </div>

@@ -68,12 +68,30 @@ closeButton.addEventListener("click", function() {
     document.querySelector(".result").style.display="none";
 })
 
-const aboutButton = document.querySelector(".aboutLink");
+// const aboutButton = document.querySelector(".aboutLink");
 
-aboutButton.addEventListener("click", e => {
-    if (document.querySelector(".aboutText").style.display === "none") {
-        document.querySelector(".aboutText").style.display="block"
-    } else {
-        document.querySelector(".aboutText").style.display="none"
+// aboutButton.addEventListener("click", e => {
+//     if (document.querySelector(".aboutText").style.display === "none") {
+//         document.querySelector(".aboutText").style.display="block"
+//     } else {
+//         document.querySelector(".aboutText").style.display="none"
+//     }
+// })
+
+const modal = document.querySelector("#about-modal");
+const btn = document.querySelector("#about-button");
+const span = document.querySelector(".close-modal");
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(e) {
+    if (e.target == modal) {
+        modal.style.display = "none";
     }
-})
+}
