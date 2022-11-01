@@ -31,6 +31,7 @@ function findCloseMatch(inputData, jsonData) {
         return b.count - a.count;
     })
 
+    console.log(sortedResult)
     return sortedResult;
 
     function hpRange(userValue, jsonHp) {

@@ -40,7 +40,8 @@ function searchJson(userData, jsonData) {
             document.getElementById("found_result").innerHTML = "Sorry, I can't find a exact match, but here is your close match:"
             // res.push(closeMatchCar[1])
         } else {
-            document.getElementById("found_result").innerHTML = "Your match woule be"
+            document.getElementById("found_result").innerHTML = "Your match woule be";
+            console.log(res)
         }
         // else if (res.length === 1) {
         //     let closeMatchCar = findCloseMatch(inputData, data);
@@ -73,8 +74,8 @@ function searchJson(userData, jsonData) {
                 imageLink.setAttribute("href", unsplashImage.results[0].links.html);
                 acutalImage2.src = unsplashImage.results[1].urls.small;
                 imageLink2.setAttribute("href", unsplashImage.results[1].links.html);
-                acutalImage3.src = unsplashImage.results[2].urls.small;
-                imageLink3.setAttribute("href", unsplashImage.results[2].links.html);
+                // acutalImage3.src = unsplashImage.results[2].urls.small;
+                // imageLink3.setAttribute("href", unsplashImage.results[2].links.html);
             })
 
             renderInfo(res[0]);
