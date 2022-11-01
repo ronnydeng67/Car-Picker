@@ -11,22 +11,22 @@ function searchJson(userData, jsonData) {
         
         
 
-        for (let i = 0; i < data.length; i++) {
-            let obj = data[i];
+        // for (let i = 0; i < data.length; i++) {
+        //     let obj = data[i];
 
-            if (
-                hpRange(inputData.hp, obj.hp) &&
-                fuelRange(inputData.fuel, obj.fuel) && 
-                priceRange(inputData.price, obj.price) &&
-                (inputData.capacity == obj.capacity) &&
-                (inputData.body === obj.body) &&
-                (inputData.transmission === obj.transmission) &&
-                (inputData.awd === obj.awd) &&
-                (inputData.ev === obj.ev)
-                ) {
-                res.push(obj);
-            }
-        }
+        //     if (
+        //         hpRange(inputData.hp, obj.hp) &&
+        //         fuelRange(inputData.fuel, obj.fuel) && 
+        //         priceRange(inputData    .price, obj.price) &&
+        //         (inputData.capacity == obj.capacity) &&
+        //         (inputData.body === obj.body) &&
+        //         (inputData.transmission === obj.transmission) &&
+        //         (inputData.awd === obj.awd) &&
+        //         (inputData.ev === obj.ev)
+        //         ) {
+        //         res.push(obj);
+        //     }
+        // }
         
         // if (res.length === 0) {
         //     document.getElementById("brand1").innerHTML = "Sorry, No cars found!!"
@@ -34,15 +34,16 @@ function searchJson(userData, jsonData) {
         // }
 
 
-        if (res.length === 0) {
+        // if (res.length < 2) {
             let closeMatchCar = findCloseMatch(inputData, data);
+            console.log(closeMatchCar)
             res.push(closeMatchCar[0])
             document.getElementById("found_result").innerHTML = "Sorry, I can't find a exact match, but here is your close match:"
             // res.push(closeMatchCar[1])
-        } else {
-            document.getElementById("found_result").innerHTML = "Your match woule be";
-            console.log(res)
-        }
+        // } 
+        // else {
+        //     document.getElementById("found_result").innerHTML = "Your match woule be";
+        // }
         // else if (res.length === 1) {
         //     let closeMatchCar = findCloseMatch(inputData, data);
         //     res.push(closeMatchCar[1])
