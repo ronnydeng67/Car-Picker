@@ -23,11 +23,11 @@
             "awd": false,
             "ev": false
         }, {
-            "brand": "toyota",
-            "model": "avalon",
-            "hp": "301",
+            "brand": "dodge",
+            "model": "charger gt",
+            "hp": "300",
             "fuel": "26",
-            "price": "38",
+            "price": "37",
             "capacity": "5",
             "body": "sedan",
             "transmission": "automatic",

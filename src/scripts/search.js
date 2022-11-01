@@ -63,6 +63,8 @@ function searchJson(userData, jsonData) {
             imageLink2_2.setAttribute("href", unsplashImage1.results[1].links.html);
         })
 
+        console.log(res[0], res[1]);
+
         renderInfo(res[0], res[1]);
         
 

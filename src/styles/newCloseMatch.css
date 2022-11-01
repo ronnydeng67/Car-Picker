@@ -12,7 +12,7 @@
 .result_text {
     width: 100wd;
     height: 50px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin-bottom: 5px;
 }
 
@@ -21,7 +21,7 @@
     flex-direction: row;
     width: 100wd;
     height: 600px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     justify-content: space-between;
 }
 
@@ -41,7 +41,7 @@
     /* width: 800px; */
     width: 49%;
     height: 580px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     padding: 5px;
 }
 
@@ -52,7 +52,7 @@
     /* width: 450px; */
     width: 55%;
     height: 550px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: 7px;
     align-items: center;
     justify-content: space-around;
@@ -66,7 +66,7 @@
     /* width: 430px; */
     width: 90%;
     height: 250px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: 5px;
 }
 
@@ -75,7 +75,9 @@
     /* width: 280px; */
     width: 35%;
     height: 550px;
-    border: 1px solid white;
+    border: 1px solid lightgrey;
     margin: 7px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }
 
