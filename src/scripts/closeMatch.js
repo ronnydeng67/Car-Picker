@@ -43,21 +43,21 @@ function findCloseMatch(inputData, jsonData) {
         return result;
     }
 
-    function fuelRange(userValue, jsonHp) {
+    function fuelRange(userValue, jsonFuel) {
         
-        let numHp = parseInt(jsonHp);
-        let min = numHp - 2;
-        let max = numHp + 2;
+        let numFuel = parseInt(jsonFuel);
+        let min = numFuel - 2;
+        let max = numFuel + 2;
 
         let result = (userValue >= min && userValue <= max);
         
         return result;
     }
 
-    function priceRange (userValue, jsonHp) {
-        let numHp = parseInt(jsonHp);
-        let min = numHp - 1;
-        let max = numHp + 1;
+    function priceRange (userValue, jsonPrice) {
+        let numPrice = parseInt(jsonPrice);
+        let min = numPrice - 1;
+        let max = numPrice + 1;
 
         let result = (userValue >= min && userValue <= max);
         

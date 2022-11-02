@@ -615,6 +615,7 @@ select:hover {
     border-radius: 5px;
     font-size: medium;
     border: none;
+    transition: 0.4s;
 }
 
 #about-button:hover {
