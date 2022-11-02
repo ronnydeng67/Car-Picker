@@ -200,14 +200,14 @@
             "ev": false
         }, {
             "brand": "kia",
-            "model": "sedona",
-            "hp": "276",
-            "fuel": "21",
-            "price": "42",
-            "capacity": "8",
-            "body": "minivan",
+            "model": "sorento",
+            "hp": "191",
+            "fuel": "26",
+            "price": "32",
+            "capacity": "5",
+            "body": "suv",
             "transmission": "automatic",
-            "awd": false,
+            "awd": true,
             "ev": false
         }, {
             "brand": "ford",
@@ -428,6 +428,116 @@
             "body": "sedan",
             "transmission": "automatic",
             "awd": false,
+            "ev": false
+        }, {
+            "brand": "acura",
+            "model": "mdx",
+            "hp": "290",
+            "fuel": "24",
+            "price": "49",
+            "capacity": "7",
+            "body": "suv",
+            "transmission": "automatic",
+            "awd": true,
+            "ev": false
+        }, {
+            "brand": "cadillac",
+            "model": "ct5",
+            "hp": "258",
+            "fuel": "26",
+            "price": "37",
+            "capacity": "5",
+            "body": "sedan",
+            "transmission": "automatic",
+            "awd": false,
+            "ev": false
+        }, {
+            "brand": "chevrolet",
+            "model": "camaro",
+            "hp": "258",
+            "fuel": "19",
+            "price": "44",
+            "capacity": "5",
+            "body": "sedan",
+            "transmission": "automatic",
+            "awd": false,
+            "ev": false
+        }, {
+            "brand": "ford",
+            "model": "ecosport",
+            "hp": "258",
+            "fuel": "25",
+            "price": "23",
+            "capacity": "5",
+            "body": "suv",
+            "transmission": "automatic",
+            "awd": false,
+            "ev": false
+        }, {
+            "brand": "genesis",
+            "model": "g80",
+            "hp": "300",
+            "fuel": "26",
+            "price": "48",
+            "capacity": "5",
+            "body": "sedan",
+            "transmission": "automatic",
+            "awd": false,
+            "ev": false
+        }, {
+            "brand": "genesis",
+            "model": "gv70",
+            "hp": "300",
+            "fuel": "24",
+            "price": "43",
+            "capacity": "5",
+            "body": "suv",
+            "transmission": "automatic",
+            "awd": false,
+            "ev": false
+        }, {
+            "brand": "kia",
+            "model": "ev6",
+            "hp": "167",
+            "fuel": "40",
+            "price": "45",
+            "capacity": "5",
+            "body": "suv",
+            "transmission": "automatic",
+            "awd": false,
+            "ev": false
+        }, {
+            "brand": "kia",
+            "model": "niro",
+            "hp": "195",
+            "fuel": "40",
+            "price": "27",
+            "capacity": "5",
+            "body": "suv",
+            "transmission": "automatic",
+            "awd": false,
+            "ev": false
+        }, {
+            "brand": "lexus",
+            "model": "is 350",
+            "hp": "311",
+            "fuel": "23",
+            "price": "43",
+            "capacity": "5",
+            "body": "sedan",
+            "transmission": "automatic",
+            "awd": false,
+            "ev": false
+        }, {
+            "brand": "porsche",
+            "model": "macan",
+            "hp": "261",
+            "fuel": "33",
+            "price": "56",
+            "capacity": "5",
+            "body": "suv",
+            "transmission": "automatic",
+            "awd": true,
             "ev": false
         }
         
