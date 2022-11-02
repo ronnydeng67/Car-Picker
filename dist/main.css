@@ -492,6 +492,8 @@ select:hover {
     font-size: xx-large;
     text-align: center;
 }
+
+
 /*!************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/newCloseMatch.css ***!
   \************************************************************************************************************/
@@ -578,7 +580,20 @@ select:hover {
     box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+#explore-car1 {
+    color: white;
+    text-decoration: underline;
+}
 
+#explore-car2 {
+    color: white;
+    text-decoration: underline;
+}
+
+#explore-car1:hover,
+#explore-car2:hover {
+    color: blue;
+}
 /*!*****************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/loader.css ***!
   \*****************************************************************************************************/

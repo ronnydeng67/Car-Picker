@@ -78,6 +78,8 @@ function searchJson(userData, jsonData) {
 
         car1Link.setAttribute("href", `https://www.edmunds.com/${res[0].brand}/${res[0].model}`)
         car2Link.setAttribute("href", `https://www.edmunds.com/${res[1].brand}/${res[1].model}`)
+        car1Link.innerHTML = (`Explore More on ${res[0].brand} ${res[0].model}`);
+        car2Link.innerHTML = (`Explore More on ${res[1].brand} ${res[1].model}`);
         renderInfo(res[0], res[1]);
         
 

@@ -81,3 +81,17 @@
     box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+#explore-car1 {
+    color: white;
+    text-decoration: underline;
+}
+
+#explore-car2 {
+    color: white;
+    text-decoration: underline;
+}
+
+#explore-car1:hover,
+#explore-car2:hover {
+    color: blue;
+}
