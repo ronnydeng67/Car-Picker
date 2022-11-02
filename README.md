@@ -1,7 +1,7 @@
 # Car Picker
 
 JS Project :red_car: :oncoming_automobile:
-Click here: (https://ronnydeng67.github.io/Car-Picker/)
+Click here: [Car Picker](https://ronnydeng67.github.io/Car-Picker/)
 
 ## Background
 
