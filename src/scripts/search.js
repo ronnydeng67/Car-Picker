@@ -9,8 +9,17 @@ function searchJson(userData, jsonData) {
 
         let res = [];
 
+        
         let closeMatchCar = findCloseMatch(inputData, data);
         console.log(closeMatchCar)
+        
+        if (inputData.ev) {
+            closeMatchCar = closeMatchCar.filter(car => car.ev)
+        }
+        
+        if (inputData.body !== "sedan") {
+            closeMatchCar = closeMatchCar.filter(car => car.body === inputData.body)
+        }
         res.push(closeMatchCar[0])
         res.push(closeMatchCar[1])
         document.getElementById("found_result").innerHTML = "Your closest matches are:"
