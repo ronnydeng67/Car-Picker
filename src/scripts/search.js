@@ -11,7 +11,6 @@ function searchJson(userData, jsonData) {
 
         
         let closeMatchCar = findCloseMatch(inputData, data);
-        console.log(closeMatchCar)
         
         if (inputData.ev) {
             closeMatchCar = closeMatchCar.filter(car => car.ev)
