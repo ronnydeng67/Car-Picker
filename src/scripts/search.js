@@ -12,6 +12,8 @@ function searchJson(userData, jsonData) {
         
         let closeMatchCar = findCloseMatch(inputData, data);
         
+        // closeMatchCar = closeMatchCar.sort((a, b) => Math.abs(a - inputData.price) - Math.abs( b - inputData.price))
+
         if (inputData.ev) {
             closeMatchCar = closeMatchCar.filter(car => car.ev)
         }
