@@ -483,7 +483,7 @@ select:hover {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    color:chartreuse;
+    color:darkorange;
     text-transform: capitalize;
 }
 
@@ -493,6 +493,24 @@ select:hover {
     text-align: center;
 }
 
+.car1_match_list,
+.car2_match_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car1_list_title,
+.car2_list_title {
+    color:gold;
+}
+
+#car1_list,
+#car2_list {
+    width: 30%;
+    height: auto;
+    color: chartreuse;
+}
 
 /*!************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/newCloseMatch.css ***!

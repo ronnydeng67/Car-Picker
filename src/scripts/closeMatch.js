@@ -10,12 +10,12 @@ function findCloseMatch(inputData, jsonData) {
         let spec = [
             hpRange(inputData.hp, obj.hp),
             fuelRange(inputData.fuel, obj.fuel),
-            priceRange(inputData.price, obj.price),
-            (inputData.capacity == obj.capacity),
-            (inputData.body === obj.body),
-            (inputData.transmission === obj.transmission),
-            (inputData.awd === obj.awd),
-            (inputData.ev === obj.ev)
+            priceRange(inputData.price, obj.price)
+            // (inputData.capacity == obj.capacity),
+            // (inputData.body === obj.body),
+            // (inputData.transmission === obj.transmission),
+            // (inputData.awd === obj.awd),
+            // (inputData.ev === obj.ev)
         ] // [true, true, false, false, true, false, true, false]
         // debugger
     
