@@ -27,7 +27,8 @@ body {
     background-color: hsl(0, 0%, 0%);
     overflow:scroll;
     position: relative;
-    background-image: url(https://github.com/ronnydeng67/Car-Picker/blob/main/images/home.jpeg);
+    /* background-image: url(https://github.com/ronnydeng67/Car-Picker/blob/main/images/home.jpeg); */
+    background-image: url(../../images/home.jpeg)
 }
 
 ul {
@@ -126,7 +127,7 @@ img{
     height: 700px;
     /* border: 1px solid white; */
     padding: 50px;
-    margin: 25px 100px 20px 100px;
+    margin: 25px 150px 20px 150px;
     display: flex;
     flex-direction: column;
     background-color: #DCC7AA;
