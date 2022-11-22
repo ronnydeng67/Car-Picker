@@ -509,6 +509,11 @@ select:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border: 1px solid black; */
+    height: 185px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 2px 2px rgb(0,0,0,0.5); */
+    background-color: #fafafa;
 }
 
 .car1_list_title,
@@ -521,7 +526,9 @@ select:hover {
     width: 30%;
     height: auto;
     color: #555555;
+    
 }
+
 
 /*!************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/newCloseMatch.css ***!
@@ -607,6 +614,7 @@ select:hover {
     margin: 7px;
     border-radius: 20px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
 }
 
 #explore-car1 {
