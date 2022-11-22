@@ -155,7 +155,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    color:white;
+    color:#555555;
     text-transform: capitalize;
 }
 
@@ -189,5 +189,5 @@
 #car2_list {
     width: 30%;
     height: auto;
-    color: white;
+    color: #555555;
 }
