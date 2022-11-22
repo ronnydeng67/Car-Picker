@@ -82,16 +82,16 @@
 }
 
 #explore-car1 {
-    color: white;
+    color: blue;
     text-decoration: underline;
 }
 
 #explore-car2 {
-    color: white;
+    color: blue;
     text-decoration: underline;
 }
 
 #explore-car1:hover,
 #explore-car2:hover {
-    color: blue;
+    color: darkblue;
 }

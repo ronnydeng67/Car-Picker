@@ -28,7 +28,8 @@ body {
     overflow:scroll;
     position: relative;
     /* background-image: url(https://github.com/ronnydeng67/Car-Picker/blob/main/images/home.jpeg); */
-    /* background-image: url(../../images/home.jpeg) */
+    /* background-image: url(../../images/result.jpeg) */
+    background-color: lightgray;
 }
 
 ul {
@@ -130,9 +131,10 @@ img{
     margin: 25px 150px 20px 150px;
     display: flex;
     flex-direction: column;
-    /* background-color: #DCC7AA; */
+    background-color: #DCC7AA;
     border-radius: 2rem;
-    background-image: url(../../images/new-home.avif)
+    /* background-image: url(../../images/new-home.avif) */
+    background-color: ;
 }
 
 .sliders {
@@ -314,7 +316,7 @@ select:hover {
 .budget_container,
 .capacity_container
  {
-    color:aquamarine;
+    color:white;
     font-size: x-large;
     padding-bottom: 20px;
 }
@@ -422,10 +424,10 @@ select:hover {
 }
 
 .pic_1:hover {
-    transform: scale(2.3);
+    transform: scale(1.2);
     /* transform: translateY(50%); */
-    margin-left: 140px;
-    margin-top: 100px;
+    margin-left: 0px;
+    margin-top: 0px;
     z-index: 1;
 }
 
@@ -434,9 +436,9 @@ select:hover {
 }
 
 .pic_2:hover {
-    transform: scale(2.3);
-    margin-left: 140px;
-    margin-top: 50px;
+    transform: scale(1.2);
+    /* margin-left: 140px;
+    margin-top: 50px; */
     /* box-shadow: 0 5px 70px rgba(0,0,0,.25); */
     z-index: 1;
 }
@@ -446,7 +448,7 @@ select:hover {
 }
 
 .pic_3:hover {
-    transform: scale(2.5);
+    transform: scale(1.5);
     margin-right: 280px;
     margin-top: 150px;
     z-index: 1;
@@ -485,8 +487,16 @@ select:hover {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    color:darkorange;
+    color:white;
     text-transform: capitalize;
+}
+
+.car1_spec {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    border: 1px solid black;
 }
 
 .result_text {
@@ -504,14 +514,14 @@ select:hover {
 
 .car1_list_title,
 .car2_list_title {
-    color:gold;
+    color:black;
 }
 
 #car1_list,
 #car2_list {
     width: 30%;
     height: auto;
-    color: chartreuse;
+    color: white;
 }
 
 /*!************************************************************************************************************!*\
@@ -601,18 +611,18 @@ select:hover {
 }
 
 #explore-car1 {
-    color: white;
+    color: blue;
     text-decoration: underline;
 }
 
 #explore-car2 {
-    color: white;
+    color: blue;
     text-decoration: underline;
 }
 
 #explore-car1:hover,
 #explore-car2:hover {
-    color: blue;
+    color: darkblue;
 }
 /*!*****************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/loader.css ***!
