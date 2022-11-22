@@ -130,7 +130,7 @@ img{
     display: flex;
     flex-direction: column;
     background-color: #DCC7AA;
-    border-radius: 6%;
+    border-radius: 2rem;
 }
 
 .sliders {
