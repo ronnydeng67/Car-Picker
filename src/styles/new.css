@@ -11,12 +11,11 @@ body {
     display: block;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1rem;
-    background-color: hsl(0, 0%, 0%);
     overflow:scroll;
     position: relative;
     /* background-image: url(https://github.com/ronnydeng67/Car-Picker/blob/main/images/home.jpeg); */
-    /* background-image: url(../../images/result.jpeg) */
-    background-color: lightgray;
+    background-image: url(../../images/milky-way-gfb9ddee9a_1920.jpg);
+    /* background-color: lightgray; */
 }
 
 ul {

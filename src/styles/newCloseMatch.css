@@ -50,13 +50,13 @@
     display: flex;
     flex-direction: column;
     /* width: 450px; */
-    width: 55%;
+    width: 45%;
     height: 550px;
     /* border: 1px solid white; */
     margin: 7px;
     align-items: center;
     justify-content: space-around;
-    flex: 1 1 auto;
+    /* flex: 1 1 auto; */
 }
 
 .car1_pic1,
@@ -84,12 +84,12 @@
 
 #explore-car1 {
     color: blue;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 #explore-car2 {
     color: blue;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 #explore-car1:hover,

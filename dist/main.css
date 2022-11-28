@@ -24,12 +24,11 @@ body {
     display: block;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1rem;
-    background-color: hsl(0, 0%, 0%);
     overflow:scroll;
     position: relative;
     /* background-image: url(https://github.com/ronnydeng67/Car-Picker/blob/main/images/home.jpeg); */
-    /* background-image: url(../../images/result.jpeg) */
-    background-color: lightgray;
+    background-image: url(../../images/milky-way-gfb9ddee9a_1920.jpg);
+    /* background-color: lightgray; */
 }
 
 ul {
@@ -519,6 +518,7 @@ select:hover {
 .car1_list_title,
 .car2_list_title {
     color:black;
+    font-size: large;
 }
 
 #car1_list,
@@ -529,6 +529,11 @@ select:hover {
     
 }
 
+.car1_info_title,
+.car2_info_title {
+    color: black;
+    font-size: large;
+}
 
 /*!************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/newCloseMatch.css ***!
@@ -585,13 +590,13 @@ select:hover {
     display: flex;
     flex-direction: column;
     /* width: 450px; */
-    width: 55%;
+    width: 45%;
     height: 550px;
     /* border: 1px solid white; */
     margin: 7px;
     align-items: center;
     justify-content: space-around;
-    flex: 1 1 auto;
+    /* flex: 1 1 auto; */
 }
 
 .car1_pic1,
@@ -619,12 +624,12 @@ select:hover {
 
 #explore-car1 {
     color: blue;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 #explore-car2 {
     color: blue;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 #explore-car1:hover,

@@ -188,6 +188,7 @@
 .car1_list_title,
 .car2_list_title {
     color:black;
+    font-size: large;
 }
 
 #car1_list,
@@ -198,3 +199,8 @@
     
 }
 
+.car1_info_title,
+.car2_info_title {
+    color: black;
+    font-size: large;
+}
