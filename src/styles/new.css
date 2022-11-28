@@ -14,7 +14,8 @@ body {
     overflow:scroll;
     position: relative;
     /* background-image: url(https://github.com/ronnydeng67/Car-Picker/blob/main/images/home.jpeg); */
-    background-image: url(../../images/milky-way-gfb9ddee9a_1920.jpg);
+    background-image: url(../../images/back.jpg);
+    background-size: cover;
     /* background-color: lightgray; */
 }
 
@@ -150,7 +151,7 @@ img{
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: blue;
+    color: Black;
     background-color: burlywood;
     border: none;
     border-radius: 15px;
