@@ -26,10 +26,8 @@ body {
     font-size: 1rem;
     overflow:scroll;
     position: relative;
-    background-image: url(https://github.com/ronnydeng67/Car-Picker/blob/main/images/home.jpeg);
-    /* background-image: url("../../images/home.jpeg"); */
+    background-image: url(https://github.com/ronnydeng67/Car-Picker/blob/main/images/milky-way-gfb9ddee9a_1920.jpg?raw=true);
     background-size: cover;
-    /* background-color: lightgray; */
 }
 
 ul {
