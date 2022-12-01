@@ -14,7 +14,7 @@ body {
     overflow:scroll;
     position: relative;
     /* background-image: url(https://github.com/ronnydeng67/Car-Picker/blob/main/images/home.jpeg); */
-    background-image: url("../../images/back.jpeg");
+    background-image: url("../../assets/images/back.jpg");
     background-size: cover;
     /* background-color: lightgray; */
 }
