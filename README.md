@@ -9,11 +9,11 @@ Car Picker is a data visualization web application that provide car suggestions 
 
 - Preferences page:
 
-![](images/search.png)
+![](images/search1.png)
 
 - Result page:
 
-![](images/result.png)
+![](images/result1.png)
 
 ## Functionality & MVPs
 
